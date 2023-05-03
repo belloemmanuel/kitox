@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.hero{
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-content{
+    padding: 100px;
+}
+
+.hero-content h1{
+    font-family: 'Moon Dance', cursive;
+    color: #E7E5E5;
+}
+
+.hero-background{
+    position: absolute;
+    z-index: -999;
+    width: 100%;
+}
+.hero-background img{
+    width: 100%;
+}
+
+#hero-button{
+    width: 100px;
+}
+
+
+
+
