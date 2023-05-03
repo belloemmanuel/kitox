@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 *{
     padding: 0px;
     margin: 0px;
@@ -14,7 +14,9 @@
 }
 
 .hero-content{
-    padding: 100px;
+ padding: 50px;
+    width: 40%;
+    text-align: center;
 }
 
 .hero-content h1{
@@ -31,10 +33,24 @@
     width: 100%;
 }
 
+#img2{
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+
 #hero-button{
     width: 100px;
 }
 
+.hero-content p:nth-child(3){
+    color: #B14728;
+    font-family: 'Montserrat', sans-serif;
+}
 
+.hero-content p:nth-child(5){
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
 
 
