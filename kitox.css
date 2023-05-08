@@ -296,7 +296,7 @@ input:focus {
 }
 /*-----responsive------*/
 
-@media screen and (max-width: 1500px){
+@media screen and (max-width: 600px){
 
     .hero{
         position: relative;
@@ -397,8 +397,7 @@ background: linear-gradient(90deg, rgba(176,255,139,1) 0%, rgba(14,98,0,1) 100%)
 .how-keto-works .img1{
     width: 100%;
     position: absolute;
-    z-index: -999;
-    height: 120vh;
+    height: 400vh;
 }
 
 .how-keto-works .img2{
@@ -407,7 +406,7 @@ position: relative;
 z-index: -999;
 margin-top: 50px;
 padding: 0px 20px 0px 20px;
-height: 100vh;
+height: 130vh;
 }
 
 .how-keto-works-contents{
