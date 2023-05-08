@@ -15,6 +15,7 @@ h1,h2,h3,p{
     color: white;
     display: flex;
     flex-direction: column;
+    background-image: url(./img/Kitox.jpg);
 }
 
 .hero-content{
@@ -27,16 +28,6 @@ h1,h2,h3,p{
     font-family: 'Moon Dance', cursive;
     color: #E7E5E5;
     font-size: 40px;
-}
-
-.hero-background{
-    position: absolute;
-    z-index: -999;
-    width: 100%;
-}
-.hero-background img{
-    width: 100%;
-    height: 10%;
 }
 
 #img2{
@@ -62,11 +53,23 @@ h1,h2,h3,p{
     font-size: 12px;
 }
 
+.fa-star, .fa-star-half-stroke{
+    color: #FF881F;
+    padding: 30px 0px 10px 0px;
+}
+
 #hero-button{
     border: none;
-    padding: 10px 30px 10px 30px;
+    padding: 20px 0px 20px 0px;
     border-radius: 30px;
-    margin-top: 60px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 30%;
+    text-align: center;
+    color: #E7E5E5;
+    font-size: 20px;
+    background: rgb(176,255,139);
+background: linear-gradient(90deg, rgba(176,255,139,1) 0%, rgba(14,98,0,1) 100%);
 }
 
 .how-keto-works{
@@ -165,6 +168,7 @@ padding-bottom: 20px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 50px;
 }
 
 .form-content{
@@ -221,6 +225,10 @@ padding-bottom: 20px;
     margin-bottom: 40px;
     width: 30%;
     text-align: center;
+    color: #E7E5E5;
+    font-size: 20px;
+    background: rgb(176,255,139);
+background: linear-gradient(90deg, rgba(176,255,139,1) 0%, rgba(14,98,0,1) 100%);
 }
 
 #form-button:hover{
@@ -253,23 +261,61 @@ input:focus {
     font-size: 20px;
  }
 
+.footer{
+    background-color: #0e0e0e;
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.footer-imgs{
+    background-color: #0e0e0e;
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.footer-lists{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    width: 35%;
+}
+
+.footer-list-item p{
+    margin-bottom: 5px;
+}
 /*-----responsive------*/
 
 @media screen and (max-width: 768px){
-    
+
     .hero{
         position: relative;
         color: white;
         display: flex;
         flex-direction: column;
         align-items: center;
+        background-image: url(./img/Kitox.jpg);
+       background-repeat: no-repeat;
+
     }
 
     #hero-button{
-        border: 2px solid red;
-        padding: 10px 30px 10px 30px;
-        border-radius: 30px;
-        margin-top: 60px;
+        border: none;
+    padding: 20px 0px 20px 0px;
+    border-radius: 30px;
+    margin-top: -10px;
+    margin-bottom: 40px;
+    width: 30%;
+    text-align: center;
+    color: #E7E5E5;
+    font-size: 20px;
+    background: rgb(176,255,139);
+background: linear-gradient(90deg, rgba(176,255,139,1) 0%, rgba(14,98,0,1) 100%);
     }
 
 .hero-content{
@@ -288,15 +334,12 @@ input:focus {
        margin-top: 10px;   
    }
    
-   .hero-background{
+   /* .hero-background{
        position: absolute;
        z-index: -999;
        width: 100%;
-   }
-   .hero-background img{
-       width: 100vw;
-       height: 80vh;
-   }
+       height: auto;
+   } */
    
    #img2{
        margin-top: -50px;
@@ -325,11 +368,17 @@ input:focus {
    }
    
    #hero-button{
-       border: none;
-       padding: 20px 60px 20px 60px;
-       border-radius: 30px;
-       margin-top: 60px;
-       background-color: greenyellow;
+    border: none;
+    padding: 20px 0px 20px 0px;
+    border-radius: 30px;
+    margin-top: -10px;
+    margin-bottom: 40px;
+    width: 30%;
+    text-align: center;
+    color: #E7E5E5;
+    font-size: 20px;
+    background: rgb(176,255,139);
+background: linear-gradient(90deg, rgba(176,255,139,1) 0%, rgba(14,98,0,1) 100%);
    }
    
 .how-keto-works{
@@ -398,4 +447,117 @@ body > div.how-keto-works > div > h3:nth-child(4){
     width: 100%;
 }
 
+
+.getplan{
+    display: flex;
+    background-color: #121212;
+    justify-content: center;
+    padding-bottom: 20px;
+        }
+    
+    .getplan-form{
+        margin-top: 50px;
+        background-color: #252424;
+        width: 100%;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    
+    .form-content{
+        padding: 50px;
+        text-align: center;
+    }
+    
+    .form-content h3{
+        color:  #FF3D00;
+        margin-bottom: 20px;
+    }
+    
+    .form-content img{
+        margin-top: 20px;
+    }
+    
+    .form-content h1{
+        color: #E7E5E5;
+    }
+    
+    .form-entry{
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        width: 80%;
+        margin-bottom: 50px;
+        justify-content: center;
+    }
+    
+    .form-entry p{
+        margin-bottom: 20px;
+    }
+    
+    .form-entry h3{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 15px
+    }
+    
+    
+    .first-form-entry{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #third-form-entry{
+        margin-top: 20px;
+    }
+
+    #form-button{
+        border: none;
+        padding: 20px 0px 20px 0px;
+        border-radius: 30px;
+        margin-top: -10px;
+        margin-bottom: 40px;
+        width: 50%;
+        text-align: center;
+        color: #E7E5E5;
+        font-size: 20px;
+        background: rgb(176,255,139);
+    background: linear-gradient(90deg, rgba(176,255,139,1) 0%, rgba(14,98,0,1) 100%);
+    }
+    #hero-button{
+        border: none;
+        padding: 20px 0px 20px 0px;
+        border-radius: 30px;
+        margin-top: 10px;
+        width: 80%;
+        text-align: center;
+        color: #E7E5E5;
+        font-size: 20px;
+        background: rgb(176,255,139);
+    background: linear-gradient(90deg, rgba(176,255,139,1) 0%, rgba(14,98,0,1) 100%);
+    }
+
+    .footer{
+        background-color: #0e0e0e;
+        display: flex;
+      align-items: center;
+        flex-direction: column;
+        padding: 30px;
+        margin-top: -20px;
+    }
+    
+    .footer-lists{
+        display: flex;
+        color: white;
+        justify-content: center;
+        padding-bottom: 100px;
+        width: 100%
+    }
+    
+    .footer-list-item p{
+        margin-bottom: 5px;
+        margin-left: 15px;
+    }
 }

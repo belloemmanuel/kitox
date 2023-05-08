@@ -5,7 +5,7 @@ regularPrice.addEventListener('keyup',calcDiscount)
 
 function calcDiscount(){
 calcDiscount = parseInt(regularPrice.value) * 0.5
-if(regularPrice.value == '' || regularPrice.value == NaN ){
+if(regularPrice.value == '' || isNaN(regularPrice.value)){
     totalPrice.innerHTML = '<em>Please Enter a Regular Price</em>'
 } else {totalPrice.innerHTML = `$${calcDiscount}`}
 }
