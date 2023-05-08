@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body{
+  overflow-x: hidden !important;
+}
+
 h1,h2,h3,p{
     font-family: 'Montserrat', sans-serif;
 }
@@ -16,6 +20,7 @@ h1,h2,h3,p{
     display: flex;
     flex-direction: column;
     background-image: url(./img/Kitox.jpg);
+    background-size: cover;
 }
 
 .hero-content{
@@ -141,7 +146,7 @@ body > div.how-keto-works > div > h3:nth-child(4){
 }
 
 .instant-access .firstsection{
-    padding: 90px;
+    padding: 50px;
 }
 
 .firstsection-head{
@@ -299,9 +304,6 @@ input:focus {
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-image: url(./img/Kitox.jpg);
-       background-repeat: no-repeat;
-
     }
 
     #hero-button{
@@ -333,13 +335,6 @@ background: linear-gradient(90deg, rgba(176,255,139,1) 0%, rgba(14,98,0,1) 100%)
        font-size: 20px;
        margin-top: 10px;   
    }
-   
-   /* .hero-background{
-       position: absolute;
-       z-index: -999;
-       width: 100%;
-       height: auto;
-   } */
    
    #img2{
        margin-top: -50px;
@@ -447,7 +442,6 @@ body > div.how-keto-works > div > h3:nth-child(4){
     width: 100%;
 }
 
-
 .getplan{
     display: flex;
     background-color: #121212;
@@ -502,7 +496,6 @@ body > div.how-keto-works > div > h3:nth-child(4){
         margin-top: 20px;
         font-size: 15px
     }
-    
     
     .first-form-entry{
         display: flex;
