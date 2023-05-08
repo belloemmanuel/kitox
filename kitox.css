@@ -296,7 +296,7 @@ input:focus {
 }
 /*-----responsive------*/
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1500px){
 
     .hero{
         position: relative;
@@ -307,7 +307,7 @@ input:focus {
     }
 
     #hero-button{
-        border: none;
+    border: none;
     padding: 20px 0px 20px 0px;
     border-radius: 30px;
     margin-top: -10px;
@@ -317,7 +317,7 @@ input:focus {
     color: #E7E5E5;
     font-size: 20px;
     background: rgb(176,255,139);
-background: linear-gradient(90deg, rgba(176,255,139,1) 0%, rgba(14,98,0,1) 100%);
+    background: linear-gradient(90deg, rgba(176,255,139,1) 0%, rgba(14,98,0,1) 100%);
     }
 
 .hero-content{
@@ -554,3 +554,19 @@ body > div.how-keto-works > div > h3:nth-child(4){
         margin-left: 15px;
     }
 }
+
+/* @media screen and (max-width: 768px){
+    .instant-access{
+     background-color:red;
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     color: #E7E5E5;
+        }
+            
+    .instant-access .firstsection{
+     padding: 50px;
+    }
+} */
+
+
