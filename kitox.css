@@ -149,6 +149,110 @@ margin-bottom: 40px;
 .firstsection-head h1{
     color: #FF3D00;
     }
+
+.getplan{
+display: flex;
+background-color: #121212;
+justify-content: center;
+padding-bottom: 20px;
+    }
+
+.getplan-form{
+    margin-top: 50px;
+    background-color: #252424;
+    width: 50%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-content{
+    padding: 50px;
+    text-align: center;
+}
+
+.form-content h3{
+    color:  #FF3D00;
+    margin-bottom: 20px;
+}
+
+.form-content img{
+    margin-top: 20px;
+}
+
+.form-content h1{
+    color: #E7E5E5;
+}
+
+.form-entry{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    width: 60%;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.form-entry p{
+    margin-bottom: 20px;
+}
+
+.form-entry h3{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.first-form-entry{
+    display: flex;
+    justify-content: space-between;
+}
+
+#third-form-entry{
+    margin-top: 20px;
+}
+
+#form-button{
+    border: none;
+    padding: 20px 0px 20px 0px;
+    border-radius: 30px;
+    margin-top: -10px;
+    margin-bottom: 40px;
+    width: 30%;
+    text-align: center;
+}
+
+#form-button:hover{
+background-color: #252424;
+border: 1px solid #E7E5E5;
+color: #E7E5E5;
+cursor: pointer;
+}
+
+.regularprice{
+    background-color: none;
+    border: none;
+    font-size: 20px;
+    width:65px;
+    border-radius:20px;
+    border: 1px solid white;
+    color: white;
+    padding-left: 20px;
+    padding-right: 18px;
+    margin-left: 10px;
+}
+
+input{
+    background-color: #252424; 
+    font-size: 20px;
+}
+
+input:focus {
+    outline: none;
+    font-size: 20px;
+ }
+
 /*-----responsive------*/
 
 @media screen and (max-width: 768px){
@@ -160,7 +264,6 @@ margin-bottom: 40px;
         flex-direction: column;
         align-items: center;
     }
-    
 
     #hero-button{
         border: 2px solid red;
@@ -228,7 +331,6 @@ margin-bottom: 40px;
        margin-top: 60px;
        background-color: greenyellow;
    }
-
    
 .how-keto-works{
     display: flex;
@@ -291,4 +393,9 @@ body > div.how-keto-works > div > h3:nth-child(4){
     margin-top: 3.5px;
     margin-right: 10px;
 }
+
+.secondsection img{
+    width: 100%;
+}
+
 }
